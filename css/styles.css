@@ -81,19 +81,23 @@ ul {
   border: solid 0.5px rgba(0, 0, 0, 0.05);
   background-color: #ffffff;
   padding: 16px 28px;
+  margin-top: 30px;
+}
+
+.first-page {
+  margin: 135px 130px 0 170px;
 }
 
 .iphone {
   position: relative;
+  margin-left: 700px;
+  margin-top: -570px;
 }
 
 .emailpos {
   position: relative;
 }
 
-.left {
-  position: relative;
-}
 
 .compatible {
   opacity: 0.3;
@@ -106,6 +110,7 @@ ul {
   color: #000000;
   text-transform: uppercase;
   position: relative;
+  margin-top: 100px;
 }
 
 .label {
@@ -114,6 +119,7 @@ ul {
   letter-spacing: 2px;
   font-family: SourceSansPro;
   position: relative;
+  margin-right: 25px;
 }
 
 .text {
@@ -138,14 +144,22 @@ ul {
 /* Built and customized
 for your habits */
 
-.h2 {
+.Features {
   text-align: center;
   font-family: SourceSansPro;
   font-size: 60px;
-  font-weight: 900;
 }
 
-.p2 {
+.little-Features {
+  text-align: center;
+  font-family: SourceSansPro;
+  font-size: 18px;
+  opacity: 1;
+  margin-top: 135px;
+}
+
+
+.paragraph2 {
   text-align: center;
   font-family: SourceSansPro;
   font-size: 21px;
@@ -162,18 +176,14 @@ for your habits */
 .AMSd {
   display: flex;
   justify-content: space-around;
-}
-
-.li {
-  border-radius: 6px;
-  display: flex;
-  justify-content: space-between
+  margin-top: 85px;
 }
 
 .poster {
   border-radius: 6px;
   display: flex;
-  justify-content: space-between
+  justify-content: space-between;
+  margin-bottom: 70px;
 }
 
 /*Easy-to-use interfaces on every platform*/
@@ -195,11 +205,24 @@ for your habits */
   position: relative;
 }
 
+.CAI {
+  margin-bottom: 30px;
+}
 
+.web-app {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-end;
+}
 
+.web-app-top {
+  margin-top: -550px;
+}
 
 .iphone-big {
   position: relative;
+  margin-left: 750px;
+  margin-top: -350px;
   z-index: 2;
 }
 
@@ -220,12 +243,13 @@ for your habits */
   border: none;
 }
 
-/* Fouth page */
+/* Black page */
 .black-part {
   display: flex;
   justify-content: center;
   background-color: black;
   height: 770px;
+  margin-top: 100px;
   
 }
 
@@ -261,7 +285,7 @@ for your habits */
   justify-content: space-between;
 }
 
-.message-field:hover {
+.message-field {
   width: 260px;
   height: 211px;
   border-radius: 10px;
@@ -270,8 +294,12 @@ for your habits */
   align-items: center;
   display: flex;
   flex-direction: column;
+}
+
+.message-field:hover {
   transform: scale(1.2);
   transition-duration: 3s;
+
 }
 
 .image-name {
@@ -298,8 +326,21 @@ for your habits */
   align-self: center;
   align-items: center;
 }
-.time {
-  color: white;
-  opacity: 0.5;
-  }
+
+.get-started {
+  text-align: center;
+  margin-bottom: 70px;
+  margin-top: 75px;
+}
+
+.footer {
+  font-weight: 600;
+  margin-bottom: 30px;
+  text-align: center;
+  opacity: 0.3;
+}
+
+.footer-icon {
+ margin-right: 20px;
+}
 
