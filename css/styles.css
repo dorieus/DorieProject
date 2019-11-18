@@ -69,7 +69,7 @@ ul {
 
 /*Track your shows automatically*/
 
-.p1 {
+.paragraph-one {
   font-family: SourceSansPro;
   font-size: 21px;
   font-weight: 300;
@@ -128,7 +128,7 @@ ul {
   justify-content: space-around; 
 }
 
-.h1 {
+.track-your-shows {
   width: 570px;
   height: 144px;
   font-family: SourceSansPro;
@@ -159,7 +159,7 @@ for your habits */
 }
 
 
-.paragraph2 {
+.paragraph-two {
   text-align: center;
   font-family: SourceSansPro;
   font-size: 21px;
@@ -188,7 +188,7 @@ for your habits */
 
 /*Easy-to-use interfaces on every platform*/
 
-.h3 {
+.easy-to-use {
   font-family: SourceSansPro;
   font-size: 46px;
   font-weight: bold;
@@ -198,7 +198,7 @@ for your habits */
   position: relative;
 }
 
-.p3 {
+.paragraph-three {
   opacity: 0.8;
   font-family: SourceSansPro;
   font-size: 18px;
@@ -244,6 +244,7 @@ for your habits */
 }
 
 /* Black page */
+
 .black-part {
   display: flex;
   justify-content: center;
@@ -253,7 +254,7 @@ for your habits */
   
 }
 
-.black-part-inside {
+.black-part-font {
   display: flex;
   justify-content: space-around;
   background-color: black;
@@ -265,21 +266,21 @@ for your habits */
   align-self: center;
 }
 
-.twitter-part {
+.twitter {
   width: 600px;
   height: 770px;
   display: flex;
   justify-content: space-between;
 }
 
-.first-twitter-column {
+.first-twitter {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 
 }
 
-.second-twitter-column {
+.second-twitter {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -321,7 +322,7 @@ for your habits */
   align-self: center;
 }
 
-.text-message {
+.message {
   width: 230px;
   align-self: center;
   align-items: center;
@@ -344,3 +345,9 @@ for your habits */
  margin-right: 20px;
 }
 
+@media only screen and (max-width: 768px) {
+  .iphone {
+  margin-left: 0;
+  margin-top: 0;
+}
+}
