@@ -8,9 +8,9 @@ film.director = "Tim Miller";
 film.writers = "Rhett Reese, Paul Wernick";
 film.actors = "Ryan Reynolds, Morena Baccarin, T.J. Miller";
 film.rate = 8.0;
-if (confirm (`Have you watched ${film.name}?`)) {
+film.watch = confirm (`Have you watched ${film.name}?`)
+if (film.watch == true) {
     alert ("Chimichanga!")
     } else {
 alert ("Bang-Bang!")
     }
-   
