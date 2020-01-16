@@ -30,3 +30,12 @@ function getRecommendation() {
   else if (newRating === 4) alert("It is good movie");
   else if (newRating === 5) alert("It is the best movie I have ever watched!");
 }
+function play () {
+let i = 0;
+while (i < 12) {
+  console.log( i );
+  i++;
+  if (i==5) {
+    console.log ("Kawabanga"); }
+}
+}
