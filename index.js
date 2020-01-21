@@ -30,12 +30,24 @@ function getRecommendation() {
   else if (newRating === 4) alert("It is good movie");
   else if (newRating === 5) alert("It is the best movie I have ever watched!");
 }
-function play () {
-let i = 0;
-while (i < 12) {
-  console.log( i );
-  i++;
-  if (i==5) {
-    console.log ("Kawabanga"); }
+function play(index, message, num) {
+  let i = 1;
+  while (i < index) {
+    console.log(i);
+    i++;
+    if (i % num === 0) {
+      console.log(message);
+    }
+  }
 }
+
+function transformString(message) {
+  message = message.split(" ");
+  message[message.length - 1] = message[message.length - 1].toUpperCase();
+  message = message.join(" ");
+  message = message.split("");
+  message = message.join("-");
+  alert(message);
 }
+
+transformString("hello world lol");
