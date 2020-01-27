@@ -9,7 +9,7 @@ function createFamily(mother, father) {
     children: [],
     makeChild: name,
     parents: `${mother}` + " and " + `${father}`
-  };
+  }
   return family;
 }
 
