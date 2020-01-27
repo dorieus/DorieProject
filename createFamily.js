@@ -1,3 +1,4 @@
+"use strict";
 function createFamily(mother, father) {
   if (typeof mother !== "string" || typeof father !== "string") {
     alert("Incorrect message");
